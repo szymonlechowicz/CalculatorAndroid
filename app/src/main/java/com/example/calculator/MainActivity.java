@@ -1,6 +1,7 @@
 package com.example.calculator;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -11,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, bac, bsign, bpc, badd, bsub, bmul, bdiv, beq, bdot;
     private TextView text;
-    private TableLayout screen;
+    private ConstraintLayout screen;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
